@@ -7,7 +7,7 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 
 @SpringBootApplication
 public class SpringBootJpaH2Application extends SpringBootServletInitializer {
-// hello
+// hello 123 pushs test
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
 		return builder.sources(SpringBootJpaH2Application.class);
