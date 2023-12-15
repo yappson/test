@@ -9,5 +9,6 @@ import com.bezkoder.spring.jpa.h2.model.Tutorial;
 public interface TutorialRepository extends JpaRepository<Tutorial, Long> {
   List<Tutorial> findByPublished(boolean published);
   // finby
+  //dshjksdh
   List<Tutorial> findByTitleContainingIgnoreCase(String title);
 }
