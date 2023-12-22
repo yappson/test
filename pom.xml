@@ -13,6 +13,7 @@
 	<artifactId>spring-boot-jpa-h2</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>spring-boot-jpa-h2</name>
+	<packaging>war</packaging>
 	<description>Spring Boot JPA + H2 database example - CRUD Rest Apis</description>
 
 	<properties>
